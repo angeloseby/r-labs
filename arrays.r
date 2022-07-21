@@ -1,0 +1,5 @@
+numbers = c(1:56)
+multiarray = array(numbers,dim = c(5,5,2))
+print(noquote(multiarray))
+print(noquote(c("Column 1 , Matrix 1 : ",multiarray[,c(1),1])))
+print(noquote(c("Column 1,2 , Matrix 1 : ",multiarray[,c(1,2),1])))

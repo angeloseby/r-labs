@@ -1,0 +1,8 @@
+numbers <- c(25,66,89)
+sum <- sum(numbers)
+mean <- mean(numbers)
+product <- prod(numbers)
+print(c("Vector is :",numbers))
+print(paste("Sum of the vector is :",sum))
+print(paste("Mean of the vector is :",mean))
+print(paste("Product of the vector is :",product))
